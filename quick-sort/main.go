@@ -46,11 +46,8 @@ func quickSort(nums []int, left, right int) {
 }
 
 func main() {
-
 	nums := []int{10, 2, 8, 4, 5, 0, 0, 1, 7, 3, 11, 11, 18, 0}
-
 	quickSort(nums, 0, len(nums)-1)
-
 	fmt.Println(nums)
 
 }
